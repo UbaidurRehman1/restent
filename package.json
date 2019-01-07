@@ -9,7 +9,9 @@
   "author": "Ubaid ur Rehman",
   "license": "ISC",
   "dependencies": {
+    "@types/ejs": "^2.6.1",
     "@types/express": "^4.16.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.4"
   }
 }
