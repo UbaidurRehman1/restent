@@ -19,7 +19,7 @@ var App = /** @class */ (function () {
     };
     App.prototype.listen = function (app) {
         var port = 3000;
-        app.listen(port, function () {
+        app.listen(port, '0.0.0.0', function () {
             console.log("Server Started");
         });
     };
