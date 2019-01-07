@@ -6,14 +6,14 @@ var App = /** @class */ (function () {
         var app = express();
         //setting
         app.set("view engine", "ejs");
-        app.set('views', __dirname + '\\src\\views');
+        app.set('views', __dirname + '/src/views');
         app.use(express.static("public"));
         this.handleRouter(app);
         this.listen(app);
     }
     App.prototype.handleRouter = function (app) {
         app.get("/", function (req, res) {
-            res.render("index\\index.ejs");
+            res.render("index/index.ejs");
         });
         // let indexRouter:IndexRouter = new IndexRouter();
         // app.use("/", indexRouter.getRouter());
